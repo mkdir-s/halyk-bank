@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halyk Bank - Платежи</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper df aic">
+        <a class="header__left" href="#"><img class="header__left-img" src="./assets/images/logo.svg" alt="логотип"></a>
+        <div class="header__right">
+          <div class="header__right-top header__top df jcsb aic">
+              <ul class="header__top-list header__list df jcsb aic">
+                <li class="header__list-item--top header__list-item--top-active"><a class="header__list-link--topactive" href="#">Частным клиентам</a></li>
+                <li class="header__list-item--top"><a class="header__list-link--top" href="#">Бизнесу</a></li>
+                <li class="header__list-item--top"><a class="header__list-link--top" href="#">Halyk Club</a></li>
+                <li class="header__list-item--top"><a class="header__list-link--top" href="#">Halyk Info</a></li>
+                <li class="header__list-item--top"><a class="header__list-link--top" href="#">О банке</a></li>
+              </ul>
+            <a class="header__top-link header__top-link--eye" href="#">Для слабовидящих</a>
+            <a class="header__top-link header__top-link--map" href="#">Банк на карте</a>
+            <a class="header__top-link header__top-link--last header__top-link--phone" href="#">7111</a>
+            <select class="header__top-select" name="lang" id="lang">
+              <option class="header__top-option" value="ru">Рус</option>
+              <option class="header__top-option" value="kz">Каз</option>
+              <option class="header__top-option" value="en">Eng</option>
+            </select>
+          </div>
+          <div class="header__right-bottom header__bottom">
+            <div class="df jcsb aic">
+              <nav class="header__bottom-nav">
+                <ul class="header__nav-list df jcsb aic">
+                  <li class="header__list-item"><a class="header__list-link" href="#">Halyk</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#">Акции</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#">Кредиты</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#">Market</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#">Рассрочка</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#">Карты</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#">Депозиты</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#">Переводы</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#">Другое</a></li>
+                </ul>
+              </nav>
+              <a class="header__bottom-button" href="#">Halyk</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="intro">
+    <div class="swiper intro-swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper intro-swiper__wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide intro__slide intro__slide-1">
+          <div class="container">
+              <div class="intro__slide-info">
+                <h3 class="intro__info-title">Сейчас бонусно!</h3>
+                <p class="intro__info-text">5% бонусов при оплате через QR</p>
+              </div>
+              <a class="intro__slide-button" href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="swiper-slide intro__slide intro__slide-2">
+          <div class="container">
+              <div class="intro__slide-info">
+                <h3 class="intro__info-title">Бонусы за <br> отличные <br> оценки</h3>
+              </div>
+              <a class="intro__slide-button" href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="swiper-slide intro__slide intro__slide-3">
+          <div class="container">
+              <div class="intro__slide-info">
+                <h3 class="intro__info-title">10% бонусов <br> в магазине <br> Sulpak</h3>
+              </div>
+              <a class="intro__slide-button" href="#">Подробнее</a>
+          </div>
+        </div>
+        <div class="swiper-slide intro__slide intro__slide-4">
+          <div class="container">
+              <div class="intro__slide-info">
+              </div>
+              <a class="intro__slide-button" href="#">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination intro-swiper__pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev intro-swiper__button-prev"></div>
+      <div class="swiper-button-next intro-swiper__button-next"></div>
+    </div>
+  </section>
+  <section class="info">
+    <div class="container">
+      <div class="info__wrapper df">
+        <div class="swiper info-swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper info-swiper__wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide info__item">
+              <img class="info__item-img" src="./assets/images/info-1.png" alt="кредит">
+              <div class="info__item-body info__body">
+                <h3 class="info__body-title">Онлайн-кредит до 7 миллионов</h3>
+                <ul class="info__body-list">
+                  <li class="info__list-item">Срок до 5 лет</li>
+                  <li class="info__list-item">Скидка 50%</li>
+                </ul>
+              </div>
+              <a class="info__item-link" href="#">Оформить кредит</a>
+            </div>
+            <div class="swiper-slide info__item">
+              <img class="info__item-img" src="./assets/images/info-2.png" alt="покупки">
+              <div class="info__item-body info__body">
+                <h3 class="info__body-title">Покупки в Halyk Market</h3>
+                <ul class="info__body-list">
+                  <li class="info__list-item">Рассрочка до 24 месяцев</li>
+                  <li class="info__list-item">Сумма до 6 000 000 тенге</li>
+                </ul>
+              </div>
+              <a class="info__item-link" href="#">Подробнее</a>
+            </div>
+            <div class="swiper-slide info__item">
+              <img class="info__item-img" src="./assets/images/info-3.jpg" alt="задолженности">
+              <div class="info__item-body info__body">
+                <h3 class="info__body-title">Урегулирование задолженности</h3>
+                <ul class="info__body-list">
+                  <li class="info__list-item">Условия и порядок урегулирования проблемной задолженности</li>
+                </ul>
+              </div>
+              <a class="info__item-link" href="#">Подробнее</a>
+            </div>
+            <div class="swiper-slide info__item">
+              <img class="info__item-img" src="./assets/images/info-4.png" alt="каско">
+              <div class="info__item-body info__body">
+                <h3 class="info__body-title">КАСКО Online</h3>
+                <ul class="info__body-list">
+                  <li class="info__list-item">Не выходя из дома</li>
+                  <li class="info__list-item">Страхования в 3 клика</li>
+                </ul>
+              </div>
+              <a class="info__item-link" href="#">Подробнее</a>
+            </div>
+          </div>
+          <div class="swiper-pagination info-swiper__pagination"></div>
+        </div>
+        <div class="info__wallet">
+          <div class="info__wallet-header df jcsb aic">
+            <h4 class="info__header-title">Курсы валют</h4>
+            <img class="info__header-img" src="" alt="">
+          </div>
+          <div class="info__wallet-headers df jcsb aic">
+            <p class="info__headers-title">Валюта</p>
+            <p class="info__headers-title">Покупка</p>
+            <p class="info__headers-title">Продажа</p>
+          </div>
+          <div class="info__wallet-body df jcsb aic">
+            <p class="info__body-currency">USD</p>
+            <p class="info__body-prices">465.3</p>
+            <p class="info__body-prices">470.3</p>
+          </div>
+          <div class="info__wallet-body df jcsb aic">
+            <p class="info__body-currency">RUB</p>
+            <p class="info__body-prices">4.79</p>
+            <p class="info__body-prices">5.05</p>
+          </div>
+          <div class="info__wallet-body info__wallet-body--last df jcsb aic">
+            <p class="info__body-currency">EUR</p>
+            <p class="info__body-prices">495.52</p>
+            <p class="info__body-prices">501.02</p>
+          </div>
+          <div class="info__wallet-link">Все курсы</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="offers">
+    <div class="container">
+      <h2 class="offers__title">Предложения от Halyk Market</h2>
+      <div class="offers__items">
+        <div class="offers__item">
+          <img class="offers__item-img" src="./assets/images/offers-1.png" alt="galaxy s32">
+          <div class="offers__item-content">
+            <h4 class="offers__item-title">Galaxy S32 уже в продаже на Halyk Market</h4>
+            <a class="offers__item-button" href="#">Купить на Market</a>
+          </div>
+        </div>
+        <div class="offers__item">
+          <img class="offers__item-img" src="./assets/images/offers-2.png" alt="робот пылесос">
+          <div class="offers__item-content">
+            <h4 class="offers__item-title">Доступный универсальный помощник по дому</h4>
+            <a class="offers__item-button" href="#">Купить на Market</a>
+          </div>
+        </div>
+        <div class="offers__item">
+          <img class="offers__item-img" src="./assets/images/offers-3.png" alt="мультиварка">
+          <div class="offers__item-content">
+            <h4 class="offers__item-title">Готовьте легко и быстро с Halyk Market</h4>
+            <a class="offers__item-button" href="#">Купить на Market</a>
+          </div>
+        </div>
+        <div class="offers__item">
+          <img class="offers__item-img" src="./assets/images/offers-4.png" alt="медикаменты">
+          <div class="offers__item-content">
+            <h4 class="offers__item-title">Заботьтесь о своём здоровье с Halyk Market</h4>
+            <a class="offers__item-button" href="#">Купить на Market</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer__info">
+          <ul class="footer__info-head df aic">
+            <li class="footer__head-item"><a class="footer__head-link" href="#">Тарифы</a></li>
+            <li class="footer__head-item"><a class="footer__head-link" href="#">Документы</a></li>
+            <li class="footer__head-item"><a class="footer__head-link" href="#">Безопасность</a></li>
+          </ul>
+          <p class="footer__info-descr">
+            Лицензия на проведение банковских и иных операций и деятельности на рынке ценных бумаг № 1.2.47/230/38/1 от 23 июня 2023 года выдана Агентством Республики Казахстан по регулированию и развитию финансового рынка
+            </p>
+          <p class="footer__info-small"> powered by <a class="footer__info-link" href="#">alexeenko</a></p>
+        </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
